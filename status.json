@@ -1,0 +1,184 @@
+{
+ "version": 1,
+ "updatedAt": "2026-10-20T17:15:00+10:00",
+ "agents": {
+  "chronos": {
+   "status": "working",
+   "activity": "Coordinating the pantheon",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "hephaestus": {
+   "status": "working",
+   "activity": "Shipped Shift Clock",
+   "updatedAt": "2026-10-20T16:30:00+10:00",
+   "source": "real"
+  },
+  "thoth": {
+   "status": "working",
+   "activity": "Writing prompts",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "plutus": {
+   "status": "working",
+   "activity": "Balancing the ledger",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "hestia": {
+   "status": "working",
+   "activity": "Checking bills",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "pheme": {
+   "status": "working",
+   "activity": "Drafting posts",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "fortuna": {
+   "status": "watching",
+   "activity": "Watching markets",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "hermes": {
+   "status": "working",
+   "activity": "Mapping the MC path",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "athena": {
+   "status": "working",
+   "activity": "Answering questions",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "atlas": {
+   "status": "working",
+   "activity": "Planning the shift",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "hygieia": {
+   "status": "working",
+   "activity": "Stretch reminder",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "apollo": {
+   "status": "working",
+   "activity": "Rendering art",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "daedalus": {
+   "status": "working",
+   "activity": "Sketching a design",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "prometheus": {
+   "status": "working",
+   "activity": "Researching AI",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "dionysus": {
+   "status": "working",
+   "activity": "Building Mythbound",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "artemis": {
+   "status": "working",
+   "activity": "Seeding brackets",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "hades": {
+   "status": "watching",
+   "activity": "Scanning Solana",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "argus": {
+   "status": "working",
+   "activity": "Hunting gems",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "iris": {
+   "status": "working",
+   "activity": "Sorting the inbox",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  },
+  "mnemosyne": {
+   "status": "working",
+   "activity": "Crunching numbers",
+   "updatedAt": "2026-10-20T17:15:00+10:00",
+   "source": "default"
+  }
+ },
+ "ticker": [
+  {
+   "text": "Hephaestus shipped Shift Clock",
+   "at": "2026-10-20T16:30:00+10:00",
+   "agent": "hephaestus",
+   "source": "real"
+  },
+  {
+   "text": "Argus × Hades Live launched",
+   "at": "2026-10-19T12:00:00+10:00",
+   "agent": "argus",
+   "source": "real"
+  },
+  {
+   "text": "Mythbound v2.2 co-op went live",
+   "at": "2026-10-18T12:00:00+10:00",
+   "agent": "dionysus",
+   "source": "real"
+  },
+  {
+   "text": "Coin checker v1.6 went live",
+   "at": "2026-10-10T12:00:00+10:00",
+   "agent": "fortuna",
+   "source": "real"
+  }
+ ],
+ "routines": [
+  {
+   "name": "Morning brief",
+   "agent": "chronos",
+   "schedule": "Daily 06:00",
+   "source": "default"
+  },
+  {
+   "name": "Payday check",
+   "agent": "plutus",
+   "schedule": "Wednesday",
+   "source": "default"
+  },
+  {
+   "name": "Bedtime reminder",
+   "agent": "hygieia",
+   "schedule": "Daily 21:15",
+   "source": "default"
+  },
+  {
+   "name": "Market scan",
+   "agent": "argus",
+   "schedule": "Hourly",
+   "source": "default"
+  },
+  {
+   "name": "Inbox sweep",
+   "agent": "iris",
+   "schedule": "Daily 08:00",
+   "source": "default"
+  }
+ ]
+}

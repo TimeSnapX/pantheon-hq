@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pantheon HQ</title><meta name="theme-color" content="#0b1020">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><button id="drawerBtn" class="drawer-btn" aria-label="Agents list">☰</button>
+<div class="logo"><img src="icons/icon-192.png" alt=""><span>PANTHEON HQ</span></div>
+<div class="live">Live world • <b id="online">20</b> agents online</div>
+<nav class="tabs"><button data-tab="world" class="on">World</button><button data-tab="agents">Agents</button><button data-tab="routines">Routines</button><button data-tab="activity">Activity</button></nav>
+<input id="search" type="search" placeholder="Search agents…" aria-label="Search agents">
+<img class="me" src="assets/user.webp" alt="TimeSnap"></header>
+<main><aside id="list" class="panel"><h2>THE PANTHEON</h2><ul id="roster"></ul></aside>
+<section id="view-world" class="view on"><div id="mapWrap" class="map-wrap"><div id="map" class="map">
+<div class="tint"></div><div class="stars"></div><div class="clouds"><i></i><i></i><i></i></div><div class="falls"><i style="left:5.5%;top:38%"></i><i style="left:20%;top:44%"></i><i style="left:66%;top:82%"></i><i style="left:76%;top:84%"></i></div>
+<div id="pins"></div>
+<div class="status-card" id="statusCard"><h3>WORLD STATUS</h3><div><b id="nWork">0</b> working · <b id="nWatch">0</b> watching</div><div class="sub"><span id="cycle">Night cycle</span> • <span id="temp">--°C</span> Brisbane</div></div>
+</div></div><div class="zoom"><button id="zin">+</button><button id="zout">−</button></div></section>
+<section id="view-agents" class="view"><h2>Agents</h2><div id="agentGrid" class="grid"></div></section>
+<section id="view-routines" class="view"><h2>Routines</h2><p class="note">Placeholder fed from status.json — schedules are role-based defaults until agents publish real ones.</p><ul id="routineList" class="rows"></ul></section>
+<section id="view-activity" class="view"><h2>Activity log</h2><ul id="actList" class="rows"></ul></section>
+<aside id="side" class="side" hidden><button class="x" id="sideX" aria-label="Close">×</button><div id="sideBody"></div></aside>
+</main>
+<footer class="ticker"><span class="lv">LIVE ●</span><div class="tk"><div id="tick"></div></div></footer>
+<script src="app.js"></script></body></html>

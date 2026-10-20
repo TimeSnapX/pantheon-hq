@@ -1,0 +1,315 @@
+{
+ "apps": {
+  "pay-ledger": "Pay Ledger",
+  "shift-clock": "Shift Clock",
+  "coin-risk-reward": "Coin Risk/Reward",
+  "argus-hades-live": "Argus \u00d7 Hades Live",
+  "hades-trades": "Hades Trades",
+  "crypto-lab": "Crypto Lab",
+  "mythbound": "Mythbound",
+  "card-deals": "Card Deals",
+  "agent-world": "Agent World",
+  "run-tracker": "Run Tracker",
+  "loading-dock-runner": "Loading Dock Runner",
+  "mc-career-tracker": "MC Career Tracker",
+  "green-ledger": "GreenLedger",
+  "pulseboard": "PulseBoard",
+  "life-os": "Life OS"
+ },
+ "agents": [
+  {
+   "id": "chronos",
+   "name": "Chronos",
+   "title": "Head of Ops",
+   "x": 49.64,
+   "y": 46.65,
+   "apps": [
+    "agent-world"
+   ],
+   "idle": [
+    "Coordinating the pantheon",
+    "Reviewing today's priorities",
+    "Planning tomorrow's shift"
+   ]
+  },
+  {
+   "id": "hephaestus",
+   "name": "Hephaestus",
+   "title": "Builder",
+   "x": 44.67,
+   "y": 20.3,
+   "apps": [
+    "shift-clock",
+    "agent-world"
+   ],
+   "idle": [
+    "Forging an app",
+    "Fixing a build",
+    "Polishing a PWA"
+   ]
+  },
+  {
+   "id": "thoth",
+   "name": "Thoth",
+   "title": "Prompt Scribe",
+   "x": 71.79,
+   "y": 20.09,
+   "apps": [],
+   "idle": [
+    "Writing prompts",
+    "Refining a system prompt",
+    "Filing prompt notes"
+   ]
+  },
+  {
+   "id": "plutus",
+   "name": "Plutus",
+   "title": "Money",
+   "x": 87.17,
+   "y": 42.98,
+   "apps": [
+    "pay-ledger",
+    "green-ledger"
+   ],
+   "idle": [
+    "Balancing the ledger",
+    "Checking the payslip",
+    "Tracking take-home pay"
+   ]
+  },
+  {
+   "id": "hestia",
+   "name": "Hestia",
+   "title": "Home Ops",
+   "x": 12.11,
+   "y": 60.04,
+   "apps": [
+    "life-os"
+   ],
+   "idle": [
+    "Checking bills",
+    "Sorting home admin",
+    "Watching for failed payments"
+   ]
+  },
+  {
+   "id": "pheme",
+   "name": "Pheme",
+   "title": "Marketing",
+   "x": 40.8,
+   "y": 73.0,
+   "apps": [],
+   "idle": [
+    "Drafting posts",
+    "Planning a launch post",
+    "Reviewing engagement"
+   ]
+  },
+  {
+   "id": "fortuna",
+   "name": "Fortuna",
+   "title": "Pro Trader",
+   "x": 84.14,
+   "y": 71.49,
+   "apps": [
+    "coin-risk-reward",
+    "crypto-lab"
+   ],
+   "idle": [
+    "Watching markets",
+    "Sizing risk/reward",
+    "Reviewing setups"
+   ]
+  },
+  {
+   "id": "hermes",
+   "name": "Hermes",
+   "title": "Career Road",
+   "x": 28.93,
+   "y": 43.2,
+   "apps": [
+    "mc-career-tracker"
+   ],
+   "idle": [
+    "Mapping the MC path",
+    "Checking licence steps",
+    "Logging driving hours"
+   ]
+  },
+  {
+   "id": "athena",
+   "name": "Athena",
+   "title": "Question Master",
+   "x": 18.04,
+   "y": 23.97,
+   "apps": [],
+   "idle": [
+    "Answering questions",
+    "Researching an answer",
+    "Fact-checking"
+   ]
+  },
+  {
+   "id": "atlas",
+   "name": "Atlas",
+   "title": "Work",
+   "x": 59.44,
+   "y": 58.96,
+   "apps": [
+    "loading-dock-runner"
+   ],
+   "idle": [
+    "Planning the shift",
+    "Reviewing loading routes",
+    "Logging work hours"
+   ]
+  },
+  {
+   "id": "hygieia",
+   "name": "Hygieia",
+   "title": "Body",
+   "x": 68.4,
+   "y": 49.03,
+   "apps": [
+    "pulseboard",
+    "run-tracker"
+   ],
+   "idle": [
+    "Stretch reminder",
+    "Logging a run",
+    "Bedtime check"
+   ]
+  },
+  {
+   "id": "apollo",
+   "name": "Apollo",
+   "title": "Creative Director",
+   "x": 63.44,
+   "y": 72.79,
+   "apps": [
+    "mythbound"
+   ],
+   "idle": [
+    "Rendering art",
+    "Designing a wallpaper",
+    "Art-directing a scene"
+   ]
+  },
+  {
+   "id": "daedalus",
+   "name": "Daedalus",
+   "title": "Tattoo Designer",
+   "x": 56.05,
+   "y": 32.4,
+   "apps": [],
+   "idle": [
+    "Sketching a design",
+    "Refining linework",
+    "Exploring a concept"
+   ]
+  },
+  {
+   "id": "prometheus",
+   "name": "Prometheus",
+   "title": "AI Genius",
+   "x": 36.8,
+   "y": 53.78,
+   "apps": [],
+   "idle": [
+    "Researching AI",
+    "Testing a new model",
+    "Reading release notes"
+   ]
+  },
+  {
+   "id": "dionysus",
+   "name": "Dionysus",
+   "title": "Game Designer",
+   "x": 48.67,
+   "y": 81.64,
+   "apps": [
+    "mythbound",
+    "card-deals"
+   ],
+   "idle": [
+    "Building Mythbound",
+    "Balancing co-op",
+    "Designing a level"
+   ]
+  },
+  {
+   "id": "artemis",
+   "name": "Artemis",
+   "title": "8 Ball Comp",
+   "x": 23.0,
+   "y": 78.4,
+   "apps": [],
+   "idle": [
+    "Seeding brackets",
+    "Updating standings",
+    "Scheduling matches"
+   ]
+  },
+  {
+   "id": "hades",
+   "name": "Hades",
+   "title": "Phantom Trader",
+   "x": 93.58,
+   "y": 87.04,
+   "apps": [
+    "hades-trades",
+    "argus-hades-live"
+   ],
+   "idle": [
+    "Scanning Solana",
+    "Watching wallet flows",
+    "Logging trades"
+   ]
+  },
+  {
+   "id": "argus",
+   "name": "Argus",
+   "title": "Crypto Research",
+   "x": 81.23,
+   "y": 28.73,
+   "apps": [
+    "argus-hades-live",
+    "crypto-lab",
+    "coin-risk-reward"
+   ],
+   "idle": [
+    "Hunting gems",
+    "Checking contract risk",
+    "Scanning new tokens"
+   ]
+  },
+  {
+   "id": "iris",
+   "name": "Iris",
+   "title": "Correspondence",
+   "x": 33.9,
+   "y": 28.94,
+   "apps": [],
+   "idle": [
+    "Sorting the inbox",
+    "Drafting replies",
+    "Flagging important mail"
+   ]
+  },
+  {
+   "id": "mnemosyne",
+   "name": "Mnemosyne",
+   "title": "Analytics",
+   "x": 77.24,
+   "y": 55.29,
+   "apps": [
+    "pulseboard"
+   ],
+   "idle": [
+    "Crunching numbers",
+    "Building a weekly report",
+    "Charting trends"
+   ]
+  }
+ ]
+}

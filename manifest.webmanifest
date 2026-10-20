@@ -1,0 +1,2 @@
+{"id":"/pantheon-hq/?app=pantheon-hq","name":"Pantheon HQ","short_name":"Pantheon","description":"Live world dashboard for TimeSnap's AI agents","start_url":"./","scope":"/pantheon-hq/","display":"standalone","background_color":"#070b18","theme_color":"#0b1020",
+"icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
